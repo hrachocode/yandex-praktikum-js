@@ -1,0 +1,12 @@
+@import url('../assets/vendor/normalize.css');
+@import url('../assets/vendor/fonts.css');
+@import url('../assets/blocks/page/page.css');
+@import url('../assets/blocks/header/header.css');
+@import url('../assets/blocks/content/content.css');
+@import url('../assets/blocks/footer/footer.css');
+@import url('../assets/blocks/profile/profile.css');
+@import url('../assets/blocks/places/places.css');
+@import url('../assets/blocks/card/card.css');
+@import url('../assets/blocks/popup/popup.css');
+@import url('../assets/blocks/popup/_is-opened/popup_is-opened.css');
+/*Импортируем на уровень выше*/
