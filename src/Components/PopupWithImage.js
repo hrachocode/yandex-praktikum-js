@@ -17,6 +17,7 @@ class PopupWithImage extends Popup {
             super.open();
             this._addImage(imageLink, imageAlt);
       }
+      // не очень понятно, зачем здесь разделение на 2 метода, но в целом ок
 }
 
 export default PopupWithImage;

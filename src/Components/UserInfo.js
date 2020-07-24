@@ -4,6 +4,7 @@ class UserInfo {
             this._userInfo = document.querySelector(userInfoSelector);
       }
 
+      // *Можно лучше* Непонятно, зачем в конструкторе _userName и _userInfo если они тут нигде не используются. возможно, нужно отредактировать метод getUserInfo
       getUserInfo() {
             const profileTitle = document.querySelector('.profile__title').textContent;
             const profileDescription = document.querySelector('.profile__description').textContent;

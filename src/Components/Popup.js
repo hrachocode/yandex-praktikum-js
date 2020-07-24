@@ -1,5 +1,5 @@
 import { ESC_KEYCODE } from "../Utils/Constants";
-
+// хорошее решение вынести все в отдельный файл с константами
 class Popup {
       constructor(popupSelector) {
             this._popupElement = document.querySelector(popupSelector);
@@ -29,11 +29,14 @@ class Popup {
                   document.querySelectorAll('.popup_is-opened').length > 0 && this._handleEscapeClose(evt.keyCode);
             });
 
+            //*Можно лучше* Как вариант, сделать каждый listener приватным методом этого класса, так будет лучше читаемость кода
+
             //  делаем CleanUp чтоб не получить Memory leak
             return () => {
                   this._popupElement.removeEventListener(clickListener);
                   document.removeEventListener(keyupListener);
             }
+            // отличное решение!
       }
 }
 
