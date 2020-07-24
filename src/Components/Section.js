@@ -12,6 +12,8 @@ class Section {
       addItem(DOMNode) {
             this._wrapperSelector.append(DOMNode);
       }
+
+      // все хорошо, для большей универсальности этого класса можно передавать в _renderer и селектор враппера
 }
 
 export default Section;

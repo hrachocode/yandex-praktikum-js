@@ -53,4 +53,6 @@ class Card {
   }
 }
 
+// В целом, хорошо, ничего лишнего
+
 export default Card;

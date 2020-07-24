@@ -11,6 +11,8 @@ class PopupWithForm extends Popup {
             const { name, link } = this._popupElement.querySelector('form').elements;
             return { name, link };
       }
+      //*можно лучше* не очень понятно, зачем этот метод здесь если он нигде не используется. вся обработка в этой реализации идет через handleFormSubmit,
+      //хотя в ТЗ было написано про метод _getInputValues
 
       setEventListeners() {
             super.setEventListeners();

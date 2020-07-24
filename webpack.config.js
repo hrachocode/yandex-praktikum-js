@@ -44,3 +44,5 @@ module.exports = {
             new MiniCssExtractPlugin()
       ]
 };
+
+//все в целом правильно настроено и загружается, претензий нет
